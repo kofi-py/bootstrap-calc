@@ -61,7 +61,7 @@ for (const opName of [ "add", "subtract", "multiply", "divide", "percent" ]) {
       opCallback(opName);
 }
   
-  document.querySelector(".btn-outline-danger").onclick =
+  document.querySelector(".btn-secondary").onclick =
     () => {
       if (buffer && buffer.length) {
         buffer.push({ value: parseFloat($input.value) });
